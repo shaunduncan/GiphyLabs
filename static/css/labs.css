@@ -15,7 +15,7 @@ ul.unstyled {
 }
 
 a {
-	color:black;
+	color:#56C6F4;
 	text-decoration: none;
 
 }
@@ -45,6 +45,7 @@ a:hover {
 
 .apps_list li a {
 	font-size:34px;
+	font-weight:bold;
 	line-height: 1.3em;
 }
 .apps_list li {
