@@ -43,7 +43,7 @@ a:hover {
 
 }
 
-.apps_list li a {
+.apps_list li h3 {
 	font-size:34px;
 	font-weight:bold;
 	line-height: 1.3em;
