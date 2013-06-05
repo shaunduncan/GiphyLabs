@@ -7,6 +7,7 @@ body {
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size:14px;
 	line-height:1.3em;
+	color:#111;
 }
 
 ul.unstyled {
@@ -33,6 +34,7 @@ a:hover {
 	overflow:auto;
 	margin-right:35px;
 }
+
 .apps_list {
 	float:left;
 	width:321px;
@@ -55,4 +57,85 @@ a:hover {
 }
 .apps_list p {
 	margin-bottom:15px;
+}
+
+
+
+/***
+
+	artists pages
+	artists_container
+*/
+
+.artists_container {
+	width:500px;
+	margin:20px auto;
+}
+.artists_container .thumbnail {
+	clear:both;
+	overflow:auto;
+}
+.artists_container .thumbnail {
+	/*max-width:80px;*/
+	width:41px;
+	float:left;
+	height:41px;
+	overflow:hidden;
+margin-right:5px	
+}
+.artists_container .thumbnail img {
+	float:left;	
+	max-height:41px;
+	;
+	}
+.thumbnail .name {
+	float:left;
+}
+.screensaver_dl_box {
+	overflow:auto;
+}
+.screensaver_dl_box ul {
+	width:245px;
+	margin-right:5px;
+	float:left;
+
+}
+.screensaver_dl_box ul li:nth-child(even) {
+	background:#efefef;
+}
+.screensaver_dl_box ul li {
+	margin-bottom:5px;
+	clear:both;
+	float:none;
+	overflow:auto;
+
+}
+
+.artists_container h1 {
+	font-size:36px;
+	line-height:1.3em;
+	margin:5px 0 4px;
+}
+.artists_container h2 {
+	margin:15px 0 10px;
+	font-size:24px;
+	line-height: 1.3em;
+}
+.artists_container p {
+	margin:5px 0 10px;
+}
+
+.artists_container .footer {
+	/*text-align: center;*/
+	border-top:1px solid #ccc;
+	margin:30px 0 30px;
+	padding:20px 0 30px;
+}
+.footer_logo {
+	max-width:60px;
+	/*text-align:center;*/
+}
+.footer_logo_link {
+	float:left;
+	margin-right:10px;
 }

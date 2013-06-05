@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy Gif Artists | Giphy Labs</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,400" rel="stylesheet" type="text/css"/>	
+	<link rel="stylesheet" type="text/css" href="../static/css/labs.css">
+	<link rel="icon" type="image/png" href="../static/graphics/favicon.png"/>
+	  <script type="text/javascript">
+	      var _gaq = _gaq || [];
+	      _gaq.push(['_setAccount', 'UA-38174542-1']);
+	      _gaq.push(['_trackPageview']);
+
+	      (function() {
+	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	      })();
+	  </script>
+	  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>	
+</head>
+<body>
+
+<div class="artists_container">
+	<img src="http://media.giphy.com/media/zSXSDkwaLwgp2/original.gif" border="0" />
+	<h1>Giphy Screensavers</h1>
+	<p>Enjoy Giphy Gifs on your desktop with our <a href="/screensaver/GiphySaver.saver.zip">Giphy Screensaver</a>, OSX 10.8 only. 
+		Or enjoy one of the Giphy Gif artist themed screensavers below.</p>
+
+	<p><a href="/screensaver/GiphySaver.saver.zip">Download</a> the Giphy Screensaver, OSX 10.8 only.</p>
+	<div class="screensaver_dl_box">
+		<h2>Giphy Gif Artists</h2>
+		<p>Screensavers featuring a single Gif artist.</p>
+		<ul  class="unstyled">
+            <li>
+              <a href="FrankMacchiaGiphySaver.saver.zip">
+                <div class="thumbnail horizontal"><img src="http://media.giphy.com/media/Gfvinw4tnbdXa/200_s.gif" /></div>
+                <div class="name">frank macchia</div>                
+              </a>
+              
+            </li>
+            <li>
+              <a href="MrDivGiphySaver.saver.zip">
+                <div class="thumbnail square"><img src="http://media.giphy.com/media/i24URyRsZkcso/200_s.gif" /></div>
+                <div class="name">mrdiv</div>
+
+              </a>
+              
+            </li>
+            <li>
+              <a href="OktotallyGiphySaver.saver.zip">
+                <div class="thumbnail horizontal"><img src="http://media.giphy.com/media/oePrmT6c3fNsY/200_s.gif" /></div>
+                <div class="name">oktotally</div>
+
+              </a>
+              
+            </li>
+            <li>
+              <a href="TheGoodFilmsGiphySaver.saver.zip">
+                <div class="thumbnail horizontal"><img src="http://media.giphy.com/media/ldkpecfFafKuY/200_s.gif" /></div>
+                <div class="name">thegoodfilms</div>
+
+              </a>
+              
+            </li>
+            <li>
+              <a href="ScorpionDaggerGiphySaver.saver.zip">
+                <div class="thumbnail vertical"><img src="http://media.giphy.com/media/10CebFRncOQbzq/200_s.gif" /></div>
+                <div class="name">scorpion dagger</div>
+
+              </a>
+              
+            </li>
+		
+		</ul>
+		<ul class="unstyled">
+            <li>
+              <a href="GustavoGiphySaver.saver.zip">
+                <div class="thumbnail horizontal"><img src="http://media.giphy.com/media/dnN0GLyG1Kx8I/200_s.gif" /></div>
+                <div class="name">gustavo</div>
+              </a>
+              
+            </li>
+            <li>
+              <a href="PasqualeGiphySaver.saver.zip">
+                <div class="thumbnail square"><img src="http://media.giphy.com/media/aTtX6MTPTTefe/200_s.gif" /></div>
+                <div class="name">pasquale</div>
+              </a>
+              
+            </li>
+            <li>
+              <a href="FashGifGiphySaver.saver.zip">
+                <div class="thumbnail vertical"><img src="http://media.giphy.com/media/EiNYNBEY3UjKw/200_s.gif" /></div>
+                <div class="name">fashgif</div>
+              </a>
+              
+            </li>
+            <li>
+              <a href="HoppipGiphySaver.saver.zip">
+                <div class="thumbnail horizontal"><img src="http://media.giphy.com/media/BKLGTlQfHPIDC/200_s.gif" /></div>
+                <div class="name">hoppip</div>
+              </a>
+              
+            </li>
+            <li>
+              <a href="DeclanAckroydGiphySaver.saver.zip">
+                <div class="thumbnail square"><img src="http://media.giphy.com/media/AJzYFPz9Q9leM/200_s.gif" /></div>
+                <div class="name">declan ackroyd</div>
+              </a>
+              
+            </li>				
+		</ul>
+	</div>
+
+	<div class="footer">
+		<a class="footer_logo_link" href="/"><img class="footer_logo" src="../static/graphics/api_giphy_logo.png" border="0" /></a>
+		<p>Screensavers are part of <a href="/">Giphy Labs</a>.</p>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(".thumbnail").hover(function(e) {
+		var $this = $(this).find("img");
+		var src = $this.attr("src");
+		$this.attr("src", src.replace('200_s.gif', '200.gif'))
+	}, function(e) {
+		var $this = $(this).find("img");		
+		var src = $this.attr("src");
+		$this.attr("src", src.replace('200.gif', '200_s.gif'))
+	})
+</script>
+
+<script type="text/javascript">
+  var _sf_async_config = { uid: 45265, domain: 'labs.giphy.com', useCanonical: true };
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>	
+</body>
+</html>
